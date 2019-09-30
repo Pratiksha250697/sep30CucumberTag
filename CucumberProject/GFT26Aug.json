@@ -1,0 +1,222 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Background Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2900500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Test one Background",
+            "match": {
+              "location": "DemoTagsTest.test_one_Background()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1359299,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Test two Background",
+            "match": {
+              "location": "DemoTagsTest.test_two_Background()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 849100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Test three Background",
+            "match": {
+              "location": "DemoTagsTest.test_three_Background()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-27T09:58:10.177Z",
+        "line": 17,
+        "name": "Test Regression Functionality",
+        "description": "",
+        "id": "tags-functionality;test-regression-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2189299,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Its a Regression first test",
+            "match": {
+              "location": "DemoTagsTest.its_a_Regression_first_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 945400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Its a Regression second test",
+            "match": {
+              "location": "DemoTagsTest.its_a_Regression_second_test()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 790400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Its a Regression third test",
+            "match": {
+              "location": "DemoTagsTest.its_a_Regression_third_test()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Background Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 938700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Test one Background",
+            "match": {
+              "location": "DemoTagsTest.test_one_Background()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 696601,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Test two Background",
+            "match": {
+              "location": "DemoTagsTest.test_two_Background()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 616400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Test three Background",
+            "match": {
+              "location": "DemoTagsTest.test_three_Background()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-27T09:58:10.208Z",
+        "line": 23,
+        "name": "Test Integration Functionality",
+        "description": "",
+        "id": "tags-functionality;test-integration-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 963699,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Its a Integration first test",
+            "match": {
+              "location": "DemoTagsTest.its_a_Integration_first_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 612900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Its a Integration second test",
+            "match": {
+              "location": "DemoTagsTest.its_a_Integration_second_test()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 676199,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Its a Integration third test",
+            "match": {
+              "location": "DemoTagsTest.its_a_Integration_third_test()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@IntegrationTest"
+          }
+        ]
+      }
+    ],
+    "name": "Tags functionality",
+    "description": "  To tset tags functionality",
+    "id": "tags-functionality",
+    "keyword": "Feature",
+    "uri": "file:Features/demoTags.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
